@@ -52,38 +52,38 @@
         "documentation": {}
     },
     {
-        "label": "df",
-        "kind": 5,
-        "importPath": "backTestDcaFG",
-        "description": "backTestDcaFG",
-        "peekOfCode": "df = pd.read_csv('data.csv', parse_dates=['Date'])\ndf = df.set_index('Date')\n# Initial conditions\ncash = 0      # Cash available from sells\nbtc_holdings = 0.0\ninvestment_per_day = 10  # 10€ per day\ncash_invested = 0  # Track how much money we invested\n# To track performance\nhistory = []\n# Simulation",
-        "detail": "backTestDcaFG",
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
         "documentation": {}
     },
     {
-        "label": "df",
-        "kind": 5,
-        "importPath": "backTestDcaFG",
-        "description": "backTestDcaFG",
-        "peekOfCode": "df = df.set_index('Date')\n# Initial conditions\ncash = 0      # Cash available from sells\nbtc_holdings = 0.0\ninvestment_per_day = 10  # 10€ per day\ncash_invested = 0  # Track how much money we invested\n# To track performance\nhistory = []\n# Simulation\nfor date, row in df.iterrows():",
-        "detail": "backTestDcaFG",
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
-        "label": "cash",
-        "kind": 5,
-        "importPath": "backTestDcaFG",
-        "description": "backTestDcaFG",
-        "peekOfCode": "cash = 0      # Cash available from sells\nbtc_holdings = 0.0\ninvestment_per_day = 10  # 10€ per day\ncash_invested = 0  # Track how much money we invested\n# To track performance\nhistory = []\n# Simulation\nfor date, row in df.iterrows():\n    close_price = row['Close']\n    fgi_value = row['fgi_value']",
-        "detail": "backTestDcaFG",
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
-        "label": "btc_holdings",
+        "label": "csv_file",
         "kind": 5,
         "importPath": "backTestDcaFG",
         "description": "backTestDcaFG",
-        "peekOfCode": "btc_holdings = 0.0\ninvestment_per_day = 10  # 10€ per day\ncash_invested = 0  # Track how much money we invested\n# To track performance\nhistory = []\n# Simulation\nfor date, row in df.iterrows():\n    close_price = row['Close']\n    fgi_value = row['fgi_value']\n    if fgi_value < 60:",
+        "peekOfCode": "csv_file = input(\"Nom du fichier CSV (ex: data.csv) : \").strip() or \"data.csv\"\ninvestment_per_day = float(input(\"Montant à investir par jour (€) (ex: 10) : \") or 10)\nfgi_threshold = int(input(\"Seuil FGI pour acheter (<) ou vendre (>=) (ex: 60) : \") or 60)\nprint(\"\\n▶️  Démarrage du backtest...\\n\")\n# --- Load Data ---\ndf = pd.read_csv(csv_file, parse_dates=['Date'])\ndf = df.set_index('Date')\n# --- Initial conditions ---\ncash = 0\nbtc_holdings = 0.0",
         "detail": "backTestDcaFG",
         "documentation": {}
     },
@@ -92,7 +92,52 @@
         "kind": 5,
         "importPath": "backTestDcaFG",
         "description": "backTestDcaFG",
-        "peekOfCode": "investment_per_day = 10  # 10€ per day\ncash_invested = 0  # Track how much money we invested\n# To track performance\nhistory = []\n# Simulation\nfor date, row in df.iterrows():\n    close_price = row['Close']\n    fgi_value = row['fgi_value']\n    if fgi_value < 60:\n        # BUY 10€ worth of BTC",
+        "peekOfCode": "investment_per_day = float(input(\"Montant à investir par jour (€) (ex: 10) : \") or 10)\nfgi_threshold = int(input(\"Seuil FGI pour acheter (<) ou vendre (>=) (ex: 60) : \") or 60)\nprint(\"\\n▶️  Démarrage du backtest...\\n\")\n# --- Load Data ---\ndf = pd.read_csv(csv_file, parse_dates=['Date'])\ndf = df.set_index('Date')\n# --- Initial conditions ---\ncash = 0\nbtc_holdings = 0.0\ncash_invested = 0",
+        "detail": "backTestDcaFG",
+        "documentation": {}
+    },
+    {
+        "label": "fgi_threshold",
+        "kind": 5,
+        "importPath": "backTestDcaFG",
+        "description": "backTestDcaFG",
+        "peekOfCode": "fgi_threshold = int(input(\"Seuil FGI pour acheter (<) ou vendre (>=) (ex: 60) : \") or 60)\nprint(\"\\n▶️  Démarrage du backtest...\\n\")\n# --- Load Data ---\ndf = pd.read_csv(csv_file, parse_dates=['Date'])\ndf = df.set_index('Date')\n# --- Initial conditions ---\ncash = 0\nbtc_holdings = 0.0\ncash_invested = 0\nhistory = []",
+        "detail": "backTestDcaFG",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "backTestDcaFG",
+        "description": "backTestDcaFG",
+        "peekOfCode": "df = pd.read_csv(csv_file, parse_dates=['Date'])\ndf = df.set_index('Date')\n# --- Initial conditions ---\ncash = 0\nbtc_holdings = 0.0\ncash_invested = 0\nhistory = []\n# --- Simulation ---\nfor date, row in df.iterrows():\n    close_price = row['Close']",
+        "detail": "backTestDcaFG",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "backTestDcaFG",
+        "description": "backTestDcaFG",
+        "peekOfCode": "df = df.set_index('Date')\n# --- Initial conditions ---\ncash = 0\nbtc_holdings = 0.0\ncash_invested = 0\nhistory = []\n# --- Simulation ---\nfor date, row in df.iterrows():\n    close_price = row['Close']\n    fgi_value = row['fgi_value']",
+        "detail": "backTestDcaFG",
+        "documentation": {}
+    },
+    {
+        "label": "cash",
+        "kind": 5,
+        "importPath": "backTestDcaFG",
+        "description": "backTestDcaFG",
+        "peekOfCode": "cash = 0\nbtc_holdings = 0.0\ncash_invested = 0\nhistory = []\n# --- Simulation ---\nfor date, row in df.iterrows():\n    close_price = row['Close']\n    fgi_value = row['fgi_value']\n    if fgi_value < fgi_threshold:\n        # BUY",
+        "detail": "backTestDcaFG",
+        "documentation": {}
+    },
+    {
+        "label": "btc_holdings",
+        "kind": 5,
+        "importPath": "backTestDcaFG",
+        "description": "backTestDcaFG",
+        "peekOfCode": "btc_holdings = 0.0\ncash_invested = 0\nhistory = []\n# --- Simulation ---\nfor date, row in df.iterrows():\n    close_price = row['Close']\n    fgi_value = row['fgi_value']\n    if fgi_value < fgi_threshold:\n        # BUY\n        btc_bought = investment_per_day / close_price",
         "detail": "backTestDcaFG",
         "documentation": {}
     },
@@ -101,7 +146,7 @@
         "kind": 5,
         "importPath": "backTestDcaFG",
         "description": "backTestDcaFG",
-        "peekOfCode": "cash_invested = 0  # Track how much money we invested\n# To track performance\nhistory = []\n# Simulation\nfor date, row in df.iterrows():\n    close_price = row['Close']\n    fgi_value = row['fgi_value']\n    if fgi_value < 60:\n        # BUY 10€ worth of BTC\n        btc_bought = investment_per_day / close_price",
+        "peekOfCode": "cash_invested = 0\nhistory = []\n# --- Simulation ---\nfor date, row in df.iterrows():\n    close_price = row['Close']\n    fgi_value = row['fgi_value']\n    if fgi_value < fgi_threshold:\n        # BUY\n        btc_bought = investment_per_day / close_price\n        btc_holdings += btc_bought",
         "detail": "backTestDcaFG",
         "documentation": {}
     },
@@ -110,7 +155,7 @@
         "kind": 5,
         "importPath": "backTestDcaFG",
         "description": "backTestDcaFG",
-        "peekOfCode": "history = []\n# Simulation\nfor date, row in df.iterrows():\n    close_price = row['Close']\n    fgi_value = row['fgi_value']\n    if fgi_value < 60:\n        # BUY 10€ worth of BTC\n        btc_bought = investment_per_day / close_price\n        btc_holdings += btc_bought\n        cash -= investment_per_day",
+        "peekOfCode": "history = []\n# --- Simulation ---\nfor date, row in df.iterrows():\n    close_price = row['Close']\n    fgi_value = row['fgi_value']\n    if fgi_value < fgi_threshold:\n        # BUY\n        btc_bought = investment_per_day / close_price\n        btc_holdings += btc_bought\n        cash -= investment_per_day",
         "detail": "backTestDcaFG",
         "documentation": {}
     },
@@ -119,7 +164,16 @@
         "kind": 5,
         "importPath": "backTestDcaFG",
         "description": "backTestDcaFG",
-        "peekOfCode": "final_df = pd.DataFrame(history)\nfinal_df.set_index('Date', inplace=True)\n# Save result to CSV\nfinal_df.to_csv('backtest_result.csv')\n# Results\nfinal_value = final_df.iloc[-1]['Portfolio Value']\ntotal_invested = final_df.iloc[-1]['Cash Invested']\nprint(\"\\n🔔 Final Result:\")\nprint(f\"Final Portfolio Value: {final_value:.2f}€\")\nprint(f\"Total Cash Invested: {total_invested:.2f}€\")",
+        "peekOfCode": "final_df = pd.DataFrame(history)\nfinal_df.set_index('Date', inplace=True)\n# Save result\nresult_filename = 'backtest_result.csv'\nfinal_df.to_csv(result_filename)\n# --- Results ---\nfinal_value = final_df.iloc[-1]['Portfolio Value']\ntotal_invested = final_df.iloc[-1]['Cash Invested']\nprint(\"\\n🔔 Résultat Final :\")\nprint(f\"Valeur Finale du Portfolio : {final_value:.2f}€\")",
+        "detail": "backTestDcaFG",
+        "documentation": {}
+    },
+    {
+        "label": "result_filename",
+        "kind": 5,
+        "importPath": "backTestDcaFG",
+        "description": "backTestDcaFG",
+        "peekOfCode": "result_filename = 'backtest_result.csv'\nfinal_df.to_csv(result_filename)\n# --- Results ---\nfinal_value = final_df.iloc[-1]['Portfolio Value']\ntotal_invested = final_df.iloc[-1]['Cash Invested']\nprint(\"\\n🔔 Résultat Final :\")\nprint(f\"Valeur Finale du Portfolio : {final_value:.2f}€\")\nprint(f\"Cash Investi Total : {total_invested:.2f}€\")\nprint(f\"Profit : {(final_value - total_invested):.2f}€\")\nprint(f\"(Données enregistrées dans {result_filename})\")",
         "detail": "backTestDcaFG",
         "documentation": {}
     },
@@ -128,7 +182,7 @@
         "kind": 5,
         "importPath": "backTestDcaFG",
         "description": "backTestDcaFG",
-        "peekOfCode": "final_value = final_df.iloc[-1]['Portfolio Value']\ntotal_invested = final_df.iloc[-1]['Cash Invested']\nprint(\"\\n🔔 Final Result:\")\nprint(f\"Final Portfolio Value: {final_value:.2f}€\")\nprint(f\"Total Cash Invested: {total_invested:.2f}€\")\nprint(f\"Profit: {(final_value - total_invested):.2f}€\")\n# --- Plot ---\nplt.figure(figsize=(16, 9))\n# Plot lines\nplt.plot(final_df.index, final_df['Cash Invested'], label='💶 Cash Invested', color='blue')",
+        "peekOfCode": "final_value = final_df.iloc[-1]['Portfolio Value']\ntotal_invested = final_df.iloc[-1]['Cash Invested']\nprint(\"\\n🔔 Résultat Final :\")\nprint(f\"Valeur Finale du Portfolio : {final_value:.2f}€\")\nprint(f\"Cash Investi Total : {total_invested:.2f}€\")\nprint(f\"Profit : {(final_value - total_invested):.2f}€\")\nprint(f\"(Données enregistrées dans {result_filename})\")\n# --- Plot ---\nplt.figure(figsize=(16, 9))\nplt.plot(final_df.index, final_df['Cash Invested'], label='💶 Cash Invested', color='blue')",
         "detail": "backTestDcaFG",
         "documentation": {}
     },
@@ -137,7 +191,7 @@
         "kind": 5,
         "importPath": "backTestDcaFG",
         "description": "backTestDcaFG",
-        "peekOfCode": "total_invested = final_df.iloc[-1]['Cash Invested']\nprint(\"\\n🔔 Final Result:\")\nprint(f\"Final Portfolio Value: {final_value:.2f}€\")\nprint(f\"Total Cash Invested: {total_invested:.2f}€\")\nprint(f\"Profit: {(final_value - total_invested):.2f}€\")\n# --- Plot ---\nplt.figure(figsize=(16, 9))\n# Plot lines\nplt.plot(final_df.index, final_df['Cash Invested'], label='💶 Cash Invested', color='blue')\nplt.plot(final_df.index, final_df['Equity'], label='🏦 Equity (Portfolio Value + Cash Invested)', color='purple', linestyle='--')",
+        "peekOfCode": "total_invested = final_df.iloc[-1]['Cash Invested']\nprint(\"\\n🔔 Résultat Final :\")\nprint(f\"Valeur Finale du Portfolio : {final_value:.2f}€\")\nprint(f\"Cash Investi Total : {total_invested:.2f}€\")\nprint(f\"Profit : {(final_value - total_invested):.2f}€\")\nprint(f\"(Données enregistrées dans {result_filename})\")\n# --- Plot ---\nplt.figure(figsize=(16, 9))\nplt.plot(final_df.index, final_df['Cash Invested'], label='💶 Cash Invested', color='blue')\nplt.plot(final_df.index, final_df['Equity'], label='🏦 Equity (Portfolio Value + Cash Invested)', color='purple', linestyle='--')",
         "detail": "backTestDcaFG",
         "documentation": {}
     },
@@ -146,7 +200,7 @@
         "kind": 5,
         "importPath": "backTestDcaFG",
         "description": "backTestDcaFG",
-        "peekOfCode": "buy_signals = final_df[final_df['Action'].str.contains('BUY')]\nsell_signals = final_df[final_df['Action'].str.contains('SELL')]\nplt.scatter(buy_signals.index, buy_signals['Equity'], label='🟢 Buy', marker='^', color='lime', s=100)\nplt.scatter(sell_signals.index, sell_signals['Equity'], label='🔴 Sell', marker='v', color='red', s=100)\n# Decorations\nplt.title('Backtest: Invest 10€/day if FGI < 60, Sell 10€/day if FGI >= 60')\nplt.xlabel('Date')\nplt.ylabel('€ Value')\nplt.legend()\nplt.grid(True)",
+        "peekOfCode": "buy_signals = final_df[final_df['Action'].str.contains('BUY')]\nsell_signals = final_df[final_df['Action'].str.contains('SELL')]\nplt.scatter(buy_signals.index, buy_signals['Equity'], label='🟢 Buy', marker='^', color='lime', s=100)\nplt.scatter(sell_signals.index, sell_signals['Equity'], label='🔴 Sell', marker='v', color='red', s=100)\nplt.title(f'Backtest: Invest {investment_per_day}€/day if FGI < {fgi_threshold}, Sell otherwise')\nplt.xlabel('Date')\nplt.ylabel('€ Value')\nplt.legend()\nplt.grid(True)\nplt.tight_layout()",
         "detail": "backTestDcaFG",
         "documentation": {}
     },
@@ -155,7 +209,7 @@
         "kind": 5,
         "importPath": "backTestDcaFG",
         "description": "backTestDcaFG",
-        "peekOfCode": "sell_signals = final_df[final_df['Action'].str.contains('SELL')]\nplt.scatter(buy_signals.index, buy_signals['Equity'], label='🟢 Buy', marker='^', color='lime', s=100)\nplt.scatter(sell_signals.index, sell_signals['Equity'], label='🔴 Sell', marker='v', color='red', s=100)\n# Decorations\nplt.title('Backtest: Invest 10€/day if FGI < 60, Sell 10€/day if FGI >= 60')\nplt.xlabel('Date')\nplt.ylabel('€ Value')\nplt.legend()\nplt.grid(True)\nplt.tight_layout()",
+        "peekOfCode": "sell_signals = final_df[final_df['Action'].str.contains('SELL')]\nplt.scatter(buy_signals.index, buy_signals['Equity'], label='🟢 Buy', marker='^', color='lime', s=100)\nplt.scatter(sell_signals.index, sell_signals['Equity'], label='🔴 Sell', marker='v', color='red', s=100)\nplt.title(f'Backtest: Invest {investment_per_day}€/day if FGI < {fgi_threshold}, Sell otherwise')\nplt.xlabel('Date')\nplt.ylabel('€ Value')\nplt.legend()\nplt.grid(True)\nplt.tight_layout()\nplt.show()",
         "detail": "backTestDcaFG",
         "documentation": {}
     },
@@ -164,7 +218,7 @@
         "kind": 5,
         "importPath": "getData",
         "description": "getData",
-        "peekOfCode": "ticker = 'BTC-USD'\nend_date = datetime.now()\nstart_date = end_date - timedelta(days=30)\nbtc_data = yf.download(\n    ticker,\n    start=start_date.strftime('%Y-%m-%d'),\n    end=end_date.strftime('%Y-%m-%d'),\n    interval='1d'\n)\nbtc_data.index = pd.to_datetime(btc_data.index).normalize()",
+        "peekOfCode": "ticker = 'BTC-USD'\nend_date = datetime.now()\nstart_date = end_date - timedelta(days=90)\nbtc_data = yf.download(\n    ticker,\n    start=start_date.strftime('%Y-%m-%d'),\n    end=end_date.strftime('%Y-%m-%d'),\n    interval='1d'\n)\nbtc_data.index = pd.to_datetime(btc_data.index).normalize()",
         "detail": "getData",
         "documentation": {}
     },
@@ -173,7 +227,7 @@
         "kind": 5,
         "importPath": "getData",
         "description": "getData",
-        "peekOfCode": "end_date = datetime.now()\nstart_date = end_date - timedelta(days=30)\nbtc_data = yf.download(\n    ticker,\n    start=start_date.strftime('%Y-%m-%d'),\n    end=end_date.strftime('%Y-%m-%d'),\n    interval='1d'\n)\nbtc_data.index = pd.to_datetime(btc_data.index).normalize()\n# 🔥 Flatten column names if MultiIndex",
+        "peekOfCode": "end_date = datetime.now()\nstart_date = end_date - timedelta(days=90)\nbtc_data = yf.download(\n    ticker,\n    start=start_date.strftime('%Y-%m-%d'),\n    end=end_date.strftime('%Y-%m-%d'),\n    interval='1d'\n)\nbtc_data.index = pd.to_datetime(btc_data.index).normalize()\n# 🔥 Flatten column names if MultiIndex",
         "detail": "getData",
         "documentation": {}
     },
@@ -182,7 +236,7 @@
         "kind": 5,
         "importPath": "getData",
         "description": "getData",
-        "peekOfCode": "start_date = end_date - timedelta(days=30)\nbtc_data = yf.download(\n    ticker,\n    start=start_date.strftime('%Y-%m-%d'),\n    end=end_date.strftime('%Y-%m-%d'),\n    interval='1d'\n)\nbtc_data.index = pd.to_datetime(btc_data.index).normalize()\n# 🔥 Flatten column names if MultiIndex\nif isinstance(btc_data.columns, pd.MultiIndex):",
+        "peekOfCode": "start_date = end_date - timedelta(days=90)\nbtc_data = yf.download(\n    ticker,\n    start=start_date.strftime('%Y-%m-%d'),\n    end=end_date.strftime('%Y-%m-%d'),\n    interval='1d'\n)\nbtc_data.index = pd.to_datetime(btc_data.index).normalize()\n# 🔥 Flatten column names if MultiIndex\nif isinstance(btc_data.columns, pd.MultiIndex):",
         "detail": "getData",
         "documentation": {}
     },
@@ -200,7 +254,7 @@
         "kind": 5,
         "importPath": "getData",
         "description": "getData",
-        "peekOfCode": "btc_data.index = pd.to_datetime(btc_data.index).normalize()\n# 🔥 Flatten column names if MultiIndex\nif isinstance(btc_data.columns, pd.MultiIndex):\n    btc_data.columns = [' '.join(col).strip() for col in btc_data.columns]\n# Step 2: Fetch Fear and Greed Index data\nfgi_response = requests.get('https://api.alternative.me/fng/?limit=60&format=json')\nfgi_data = fgi_response.json()['data']\nfgi_df = pd.DataFrame([\n    {\n        'date': datetime.fromtimestamp(int(item['timestamp'])).date(),",
+        "peekOfCode": "btc_data.index = pd.to_datetime(btc_data.index).normalize()\n# 🔥 Flatten column names if MultiIndex\nif isinstance(btc_data.columns, pd.MultiIndex):\n    btc_data.columns = [' '.join(col).strip() for col in btc_data.columns]\n# Step 2: Fetch Fear and Greed Index data\nfgi_response = requests.get('https://api.alternative.me/fng/?limit=90&format=json')\nfgi_data = fgi_response.json()['data']\nfgi_df = pd.DataFrame([\n    {\n        'date': datetime.fromtimestamp(int(item['timestamp'])).date(),",
         "detail": "getData",
         "documentation": {}
     },
@@ -209,7 +263,7 @@
         "kind": 5,
         "importPath": "getData",
         "description": "getData",
-        "peekOfCode": "fgi_response = requests.get('https://api.alternative.me/fng/?limit=60&format=json')\nfgi_data = fgi_response.json()['data']\nfgi_df = pd.DataFrame([\n    {\n        'date': datetime.fromtimestamp(int(item['timestamp'])).date(),\n        'fgi_value': int(item['value']),\n        'fgi_classification': item['value_classification']\n    }\n    for item in fgi_data\n])",
+        "peekOfCode": "fgi_response = requests.get('https://api.alternative.me/fng/?limit=90&format=json')\nfgi_data = fgi_response.json()['data']\nfgi_df = pd.DataFrame([\n    {\n        'date': datetime.fromtimestamp(int(item['timestamp'])).date(),\n        'fgi_value': int(item['value']),\n        'fgi_classification': item['value_classification']\n    }\n    for item in fgi_data\n])",
         "detail": "getData",
         "documentation": {}
     },
@@ -292,6 +346,60 @@
         "description": "getData",
         "peekOfCode": "csv_filename = \"data.csv\"\nmerged.to_csv(csv_filename)\nprint(f\"✅ Merged BTC + FGI data saved to {csv_filename}\")",
         "detail": "getData",
+        "documentation": {}
+    },
+    {
+        "label": "run_backtest",
+        "kind": 2,
+        "importPath": "opti",
+        "description": "opti",
+        "peekOfCode": "def run_backtest(df, investment_per_day, fgi_threshold, sell_amount):\n    cash = 0\n    btc_holdings = 0.0\n    cash_invested = 0.0\n    for date, row in df.iterrows():\n        close_price = row['Close']\n        fgi_value = row['fgi_value']\n        # Deposit money every day\n        cash += investment_per_day\n        if fgi_value < fgi_threshold:",
+        "detail": "opti",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "opti",
+        "description": "opti",
+        "peekOfCode": "def main():\n    print(\"▶️  Chargement des données...\")\n    filename = \"data.csv\"\n    try:\n        df = pd.read_csv(filename, parse_dates=['Date'])\n        df.set_index('Date', inplace=True)\n    except Exception as e:\n        print(f\"Erreur lors du chargement du fichier : {e}\")\n        return\n    investment_per_day = 10  # € investis par jour",
+        "detail": "opti",
+        "documentation": {}
+    },
+    {
+        "label": "install_requirements",
+        "kind": 2,
+        "importPath": "start",
+        "description": "start",
+        "peekOfCode": "def install_requirements():\n    try:\n        print(\"Installation des dépendances...\")\n        subprocess.check_call([sys.executable, \"-m\", \"pip\", \"install\", \"-r\", \"requirements.txt\"])\n        with open(INSTALL_FLAG_FILE, \"w\") as f:\n            f.write(\"installed\")\n        print(\"Dépendances installées.\")\n    except subprocess.CalledProcessError as e:\n        print(f\"Erreur lors de l'installation : {e}\")\n        sys.exit(1)",
+        "detail": "start",
+        "documentation": {}
+    },
+    {
+        "label": "run_scripts",
+        "kind": 2,
+        "importPath": "start",
+        "description": "start",
+        "peekOfCode": "def run_scripts():\n    try:\n        print(\"Exécution de getData.py...\")\n        subprocess.check_call([sys.executable, \"getData.py\"])\n        print(\"J'essaye de trouver les meilleurs paramètres...\")\n        subprocess.check_call([sys.executable, \"opti.py\"])\n    except subprocess.CalledProcessError as e:\n        print(f\"Erreur lors de l'exécution des scripts : {e}\")\n        sys.exit(1)\ndef main():",
+        "detail": "start",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "start",
+        "description": "start",
+        "peekOfCode": "def main():\n    if not os.path.exists(INSTALL_FLAG_FILE):\n        install_requirements()\n    else:\n        print(\"Dépendances déjà installées, passage à l'exécution.\")\n    run_scripts()\nif __name__ == \"__main__\":\n    main()",
+        "detail": "start",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALL_FLAG_FILE",
+        "kind": 5,
+        "importPath": "start",
+        "description": "start",
+        "peekOfCode": "INSTALL_FLAG_FILE = \"install_done.txt\"\ndef install_requirements():\n    try:\n        print(\"Installation des dépendances...\")\n        subprocess.check_call([sys.executable, \"-m\", \"pip\", \"install\", \"-r\", \"requirements.txt\"])\n        with open(INSTALL_FLAG_FILE, \"w\") as f:\n            f.write(\"installed\")\n        print(\"Dépendances installées.\")\n    except subprocess.CalledProcessError as e:\n        print(f\"Erreur lors de l'installation : {e}\")",
+        "detail": "start",
         "documentation": {}
     }
 ]

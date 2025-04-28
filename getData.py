@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 # Step 1: Download BTC price data
 ticker = 'BTC-USD'
 end_date = datetime.now()
-start_date = end_date - timedelta(days=30)
+start_date = end_date - timedelta(days=90)
 
 btc_data = yf.download(
     ticker,
@@ -22,7 +22,7 @@ if isinstance(btc_data.columns, pd.MultiIndex):
     btc_data.columns = [' '.join(col).strip() for col in btc_data.columns]
 
 # Step 2: Fetch Fear and Greed Index data
-fgi_response = requests.get('https://api.alternative.me/fng/?limit=60&format=json')
+fgi_response = requests.get('https://api.alternative.me/fng/?limit=90&format=json')
 fgi_data = fgi_response.json()['data']
 
 fgi_df = pd.DataFrame([

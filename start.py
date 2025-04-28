@@ -20,8 +20,8 @@ def run_scripts():
         print("Exécution de getData.py...")
         subprocess.check_call([sys.executable, "getData.py"])
 
-        print("Exécution de backTestDcaFG.py...")
-        subprocess.check_call([sys.executable, "backTestDcaFG.py"])
+        print("J'essaye de trouver les meilleurs paramètres...")
+        subprocess.check_call([sys.executable, "opti.py"])
 
     except subprocess.CalledProcessError as e:
         print(f"Erreur lors de l'exécution des scripts : {e}")
