@@ -1,34 +1,41 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load your data
-df = pd.read_csv('data.csv', parse_dates=['Date'])
+# --- Prompt user for variables ---
+print("\n🛠️  Configuration du backtest")
+
+csv_file = input("Nom du fichier CSV (ex: data.csv) : ").strip() or "data.csv"
+investment_per_day = float(input("Montant à investir par jour (€) (ex: 10) : ") or 10)
+fgi_threshold = int(input("Seuil FGI pour acheter (<) ou vendre (>=) (ex: 60) : ") or 60)
+
+print("\n▶️  Démarrage du backtest...\n")
+
+# --- Load Data ---
+df = pd.read_csv(csv_file, parse_dates=['Date'])
 df = df.set_index('Date')
 
-# Initial conditions
-cash = 0      # Cash available from sells
+# --- Initial conditions ---
+cash = 0
 btc_holdings = 0.0
-investment_per_day = 10  # 10€ per day
-cash_invested = 0  # Track how much money we invested
+cash_invested = 0
 
-# To track performance
 history = []
 
-# Simulation
+# --- Simulation ---
 for date, row in df.iterrows():
     close_price = row['Close']
     fgi_value = row['fgi_value']
 
-    if fgi_value < 60:
-        # BUY 10€ worth of BTC
+    if fgi_value < fgi_threshold:
+        # BUY
         btc_bought = investment_per_day / close_price
         btc_holdings += btc_bought
         cash -= investment_per_day
         cash_invested += investment_per_day
-        action = f"BUY 10€ of BTC at {close_price:.2f}"
+        action = f"BUY {investment_per_day}€ of BTC at {close_price:.2f}"
     else:
         if btc_holdings > 0:
-            # SELL 10€ worth of BTC, or all if not enough
+            # SELL
             btc_to_sell = investment_per_day / close_price
             if btc_to_sell > btc_holdings:
                 btc_to_sell = btc_holdings
@@ -39,10 +46,9 @@ for date, row in df.iterrows():
         else:
             action = "HOLD (no BTC to sell)"
 
-    # Portfolio value = Cash available + BTC value
     btc_value = btc_holdings * close_price
     portfolio_value = cash + btc_value
-    equity = portfolio_value + cash_invested  # Equity = Portfolio Value + Cash Invested
+    equity = portfolio_value + cash_invested
 
     history.append({
         'Date': date,
@@ -56,43 +62,41 @@ for date, row in df.iterrows():
         'Action': action
     })
 
-# Create final DataFrame
+# --- Final Data ---
 final_df = pd.DataFrame(history)
 final_df.set_index('Date', inplace=True)
 
-# Save result to CSV
-final_df.to_csv('backtest_result.csv')
+# Save result
+result_filename = 'backtest_result.csv'
+final_df.to_csv(result_filename)
 
-# Results
+# --- Results ---
 final_value = final_df.iloc[-1]['Portfolio Value']
 total_invested = final_df.iloc[-1]['Cash Invested']
 
-print("\n🔔 Final Result:")
-print(f"Final Portfolio Value: {final_value:.2f}€")
-print(f"Total Cash Invested: {total_invested:.2f}€")
-print(f"Profit: {(final_value - total_invested):.2f}€")
+print("\n🔔 Résultat Final :")
+print(f"Valeur Finale du Portfolio : {final_value:.2f}€")
+print(f"Cash Investi Total : {total_invested:.2f}€")
+print(f"Profit : {(final_value - total_invested):.2f}€")
+print(f"(Données enregistrées dans {result_filename})")
 
 # --- Plot ---
 plt.figure(figsize=(16, 9))
 
-# Plot lines
 plt.plot(final_df.index, final_df['Cash Invested'], label='💶 Cash Invested', color='blue')
 plt.plot(final_df.index, final_df['Equity'], label='🏦 Equity (Portfolio Value + Cash Invested)', color='purple', linestyle='--')
 
-# Plot buy/sell markers on the Equity line
 buy_signals = final_df[final_df['Action'].str.contains('BUY')]
 sell_signals = final_df[final_df['Action'].str.contains('SELL')]
 
 plt.scatter(buy_signals.index, buy_signals['Equity'], label='🟢 Buy', marker='^', color='lime', s=100)
 plt.scatter(sell_signals.index, sell_signals['Equity'], label='🔴 Sell', marker='v', color='red', s=100)
 
-# Decorations
-plt.title('Backtest: Invest 10€/day if FGI < 60, Sell 10€/day if FGI >= 60')
+plt.title(f'Backtest: Invest {investment_per_day}€/day if FGI < {fgi_threshold}, Sell otherwise')
 plt.xlabel('Date')
 plt.ylabel('€ Value')
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
 
-# Show plot
 plt.show()
