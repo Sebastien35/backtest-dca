@@ -1,3 +1,9 @@
 yfinance
 matplotlib
 numpy
+pandas 
+textblob 
+nltk
+transformers 
+torch 
+pandas

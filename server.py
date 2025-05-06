@@ -1,4 +1,7 @@
 from flask import Flask, jsonify, request
+from getCryptoArticles import getNewsArticles
+from processArticles import process_articles
+
 import pandas as pd
 
 app = Flask(__name__)
@@ -32,6 +35,15 @@ def simulate():
             'final_value_eur': round(final_value, 2),
             'profit_eur': round(profit, 2)
         })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+    
+@app.route('/news', methods=['GET'])
+def getNews():
+    try:
+        data = getNewsArticles()
+        df = process_articles('blockchain_news.csv')
+        return jsonify(df.to_dict(orient='records'))
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
