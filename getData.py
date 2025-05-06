@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 end_date = datetime.now()
 start_date = end_date - timedelta(days=90)
 
-vs_currency = 'usd'
+vs_currency = 'eur'
 days = 90
 
 price_url = f'https://api.coingecko.com/api/v3/coins/bitcoin/market_chart'
