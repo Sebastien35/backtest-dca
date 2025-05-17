@@ -18,15 +18,6 @@
         "documentation": {}
     },
     {
-        "label": "yfinance",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "yfinance",
-        "description": "yfinance",
-        "detail": "yfinance",
-        "documentation": {}
-    },
-    {
         "label": "requests",
         "kind": 6,
         "isExtraImport": true,
@@ -49,6 +40,210 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "LinearRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "PolynomialFeatures",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "MinMaxScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "make_pipeline",
+        "importPath": "sklearn.pipeline",
+        "description": "sklearn.pipeline",
+        "isExtraImport": true,
+        "detail": "sklearn.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "Sequential",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "LSTM",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "EarlyStopping",
+        "importPath": "tensorflow.keras.callbacks",
+        "description": "tensorflow.keras.callbacks",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "nltk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "getNewsArticles",
+        "importPath": "getCryptoArticles",
+        "description": "getCryptoArticles",
+        "isExtraImport": true,
+        "detail": "getCryptoArticles",
+        "documentation": {}
+    },
+    {
+        "label": "process_articles",
+        "importPath": "processArticles",
+        "description": "processArticles",
+        "isExtraImport": true,
+        "detail": "processArticles",
         "documentation": {}
     },
     {
@@ -214,12 +409,12 @@
         "documentation": {}
     },
     {
-        "label": "ticker",
-        "kind": 5,
-        "importPath": "getData",
-        "description": "getData",
-        "peekOfCode": "ticker = 'BTC-USD'\nend_date = datetime.now()\nstart_date = end_date - timedelta(days=90)\nbtc_data = yf.download(\n    ticker,\n    start=start_date.strftime('%Y-%m-%d'),\n    end=end_date.strftime('%Y-%m-%d'),\n    interval='1d'\n)\nbtc_data.index = pd.to_datetime(btc_data.index).normalize()",
-        "detail": "getData",
+        "label": "getNewsArticles",
+        "kind": 2,
+        "importPath": "getCryptoArticles",
+        "description": "getCryptoArticles",
+        "peekOfCode": "def getNewsArticles():\n    av_api_key = \"OXHQ8P3KV5KQ58RQ\"\n    url = f'https://www.alphavantage.co/query?function=NEWS_SENTIMENT&apikey={av_api_key}&topics=blockchain'\n    r = requests.get(url)\n    data = r.json()\n    if 'feed' in data:\n        articles = [\n            {\n                'title': item.get('title', ''),\n                'summary': item.get('summary', '')",
+        "detail": "getCryptoArticles",
         "documentation": {}
     },
     {
@@ -227,7 +422,7 @@
         "kind": 5,
         "importPath": "getData",
         "description": "getData",
-        "peekOfCode": "end_date = datetime.now()\nstart_date = end_date - timedelta(days=90)\nbtc_data = yf.download(\n    ticker,\n    start=start_date.strftime('%Y-%m-%d'),\n    end=end_date.strftime('%Y-%m-%d'),\n    interval='1d'\n)\nbtc_data.index = pd.to_datetime(btc_data.index).normalize()\n# 🔥 Flatten column names if MultiIndex",
+        "peekOfCode": "end_date = datetime.now()\nstart_date = end_date - timedelta(days=90)\nvs_currency = 'eur'\ndays = 90\nprice_url = f'https://api.coingecko.com/api/v3/coins/bitcoin/market_chart'\nparams = {\n    'vs_currency': vs_currency,\n    'days': days,\n    'interval': 'daily'\n}",
         "detail": "getData",
         "documentation": {}
     },
@@ -236,25 +431,97 @@
         "kind": 5,
         "importPath": "getData",
         "description": "getData",
-        "peekOfCode": "start_date = end_date - timedelta(days=90)\nbtc_data = yf.download(\n    ticker,\n    start=start_date.strftime('%Y-%m-%d'),\n    end=end_date.strftime('%Y-%m-%d'),\n    interval='1d'\n)\nbtc_data.index = pd.to_datetime(btc_data.index).normalize()\n# 🔥 Flatten column names if MultiIndex\nif isinstance(btc_data.columns, pd.MultiIndex):",
+        "peekOfCode": "start_date = end_date - timedelta(days=90)\nvs_currency = 'eur'\ndays = 90\nprice_url = f'https://api.coingecko.com/api/v3/coins/bitcoin/market_chart'\nparams = {\n    'vs_currency': vs_currency,\n    'days': days,\n    'interval': 'daily'\n}\nprice_response = requests.get(price_url, params=params)",
         "detail": "getData",
         "documentation": {}
     },
     {
-        "label": "btc_data",
+        "label": "vs_currency",
         "kind": 5,
         "importPath": "getData",
         "description": "getData",
-        "peekOfCode": "btc_data = yf.download(\n    ticker,\n    start=start_date.strftime('%Y-%m-%d'),\n    end=end_date.strftime('%Y-%m-%d'),\n    interval='1d'\n)\nbtc_data.index = pd.to_datetime(btc_data.index).normalize()\n# 🔥 Flatten column names if MultiIndex\nif isinstance(btc_data.columns, pd.MultiIndex):\n    btc_data.columns = [' '.join(col).strip() for col in btc_data.columns]",
+        "peekOfCode": "vs_currency = 'eur'\ndays = 90\nprice_url = f'https://api.coingecko.com/api/v3/coins/bitcoin/market_chart'\nparams = {\n    'vs_currency': vs_currency,\n    'days': days,\n    'interval': 'daily'\n}\nprice_response = requests.get(price_url, params=params)\nprice_data = price_response.json()['prices']",
         "detail": "getData",
         "documentation": {}
     },
     {
-        "label": "btc_data.index",
+        "label": "days",
         "kind": 5,
         "importPath": "getData",
         "description": "getData",
-        "peekOfCode": "btc_data.index = pd.to_datetime(btc_data.index).normalize()\n# 🔥 Flatten column names if MultiIndex\nif isinstance(btc_data.columns, pd.MultiIndex):\n    btc_data.columns = [' '.join(col).strip() for col in btc_data.columns]\n# Step 2: Fetch Fear and Greed Index data\nfgi_response = requests.get('https://api.alternative.me/fng/?limit=90&format=json')\nfgi_data = fgi_response.json()['data']\nfgi_df = pd.DataFrame([\n    {\n        'date': datetime.fromtimestamp(int(item['timestamp'])).date(),",
+        "peekOfCode": "days = 90\nprice_url = f'https://api.coingecko.com/api/v3/coins/bitcoin/market_chart'\nparams = {\n    'vs_currency': vs_currency,\n    'days': days,\n    'interval': 'daily'\n}\nprice_response = requests.get(price_url, params=params)\nprice_data = price_response.json()['prices']\nbtc_df = pd.DataFrame(price_data, columns=['timestamp', 'Close'])",
+        "detail": "getData",
+        "documentation": {}
+    },
+    {
+        "label": "price_url",
+        "kind": 5,
+        "importPath": "getData",
+        "description": "getData",
+        "peekOfCode": "price_url = f'https://api.coingecko.com/api/v3/coins/bitcoin/market_chart'\nparams = {\n    'vs_currency': vs_currency,\n    'days': days,\n    'interval': 'daily'\n}\nprice_response = requests.get(price_url, params=params)\nprice_data = price_response.json()['prices']\nbtc_df = pd.DataFrame(price_data, columns=['timestamp', 'Close'])\nbtc_df['timestamp'] = pd.to_datetime(btc_df['timestamp'], unit='ms')",
+        "detail": "getData",
+        "documentation": {}
+    },
+    {
+        "label": "params",
+        "kind": 5,
+        "importPath": "getData",
+        "description": "getData",
+        "peekOfCode": "params = {\n    'vs_currency': vs_currency,\n    'days': days,\n    'interval': 'daily'\n}\nprice_response = requests.get(price_url, params=params)\nprice_data = price_response.json()['prices']\nbtc_df = pd.DataFrame(price_data, columns=['timestamp', 'Close'])\nbtc_df['timestamp'] = pd.to_datetime(btc_df['timestamp'], unit='ms')\nbtc_df['date'] = btc_df['timestamp'].dt.normalize()",
+        "detail": "getData",
+        "documentation": {}
+    },
+    {
+        "label": "price_response",
+        "kind": 5,
+        "importPath": "getData",
+        "description": "getData",
+        "peekOfCode": "price_response = requests.get(price_url, params=params)\nprice_data = price_response.json()['prices']\nbtc_df = pd.DataFrame(price_data, columns=['timestamp', 'Close'])\nbtc_df['timestamp'] = pd.to_datetime(btc_df['timestamp'], unit='ms')\nbtc_df['date'] = btc_df['timestamp'].dt.normalize()\nbtc_df.set_index('date', inplace=True)\nbtc_df = btc_df[['Close']]\nfgi_response = requests.get('https://api.alternative.me/fng/?limit=90&format=json')\nfgi_data = fgi_response.json()['data']\nfgi_df = pd.DataFrame([",
+        "detail": "getData",
+        "documentation": {}
+    },
+    {
+        "label": "price_data",
+        "kind": 5,
+        "importPath": "getData",
+        "description": "getData",
+        "peekOfCode": "price_data = price_response.json()['prices']\nbtc_df = pd.DataFrame(price_data, columns=['timestamp', 'Close'])\nbtc_df['timestamp'] = pd.to_datetime(btc_df['timestamp'], unit='ms')\nbtc_df['date'] = btc_df['timestamp'].dt.normalize()\nbtc_df.set_index('date', inplace=True)\nbtc_df = btc_df[['Close']]\nfgi_response = requests.get('https://api.alternative.me/fng/?limit=90&format=json')\nfgi_data = fgi_response.json()['data']\nfgi_df = pd.DataFrame([\n    {",
+        "detail": "getData",
+        "documentation": {}
+    },
+    {
+        "label": "btc_df",
+        "kind": 5,
+        "importPath": "getData",
+        "description": "getData",
+        "peekOfCode": "btc_df = pd.DataFrame(price_data, columns=['timestamp', 'Close'])\nbtc_df['timestamp'] = pd.to_datetime(btc_df['timestamp'], unit='ms')\nbtc_df['date'] = btc_df['timestamp'].dt.normalize()\nbtc_df.set_index('date', inplace=True)\nbtc_df = btc_df[['Close']]\nfgi_response = requests.get('https://api.alternative.me/fng/?limit=90&format=json')\nfgi_data = fgi_response.json()['data']\nfgi_df = pd.DataFrame([\n    {\n        'date': datetime.fromtimestamp(int(item['timestamp'])).date(),",
+        "detail": "getData",
+        "documentation": {}
+    },
+    {
+        "label": "btc_df['timestamp']",
+        "kind": 5,
+        "importPath": "getData",
+        "description": "getData",
+        "peekOfCode": "btc_df['timestamp'] = pd.to_datetime(btc_df['timestamp'], unit='ms')\nbtc_df['date'] = btc_df['timestamp'].dt.normalize()\nbtc_df.set_index('date', inplace=True)\nbtc_df = btc_df[['Close']]\nfgi_response = requests.get('https://api.alternative.me/fng/?limit=90&format=json')\nfgi_data = fgi_response.json()['data']\nfgi_df = pd.DataFrame([\n    {\n        'date': datetime.fromtimestamp(int(item['timestamp'])).date(),\n        'fgi_value': int(item['value']),",
+        "detail": "getData",
+        "documentation": {}
+    },
+    {
+        "label": "btc_df['date']",
+        "kind": 5,
+        "importPath": "getData",
+        "description": "getData",
+        "peekOfCode": "btc_df['date'] = btc_df['timestamp'].dt.normalize()\nbtc_df.set_index('date', inplace=True)\nbtc_df = btc_df[['Close']]\nfgi_response = requests.get('https://api.alternative.me/fng/?limit=90&format=json')\nfgi_data = fgi_response.json()['data']\nfgi_df = pd.DataFrame([\n    {\n        'date': datetime.fromtimestamp(int(item['timestamp'])).date(),\n        'fgi_value': int(item['value']),\n        'fgi_classification': item['value_classification']",
+        "detail": "getData",
+        "documentation": {}
+    },
+    {
+        "label": "btc_df",
+        "kind": 5,
+        "importPath": "getData",
+        "description": "getData",
+        "peekOfCode": "btc_df = btc_df[['Close']]\nfgi_response = requests.get('https://api.alternative.me/fng/?limit=90&format=json')\nfgi_data = fgi_response.json()['data']\nfgi_df = pd.DataFrame([\n    {\n        'date': datetime.fromtimestamp(int(item['timestamp'])).date(),\n        'fgi_value': int(item['value']),\n        'fgi_classification': item['value_classification']\n    }\n    for item in fgi_data",
         "detail": "getData",
         "documentation": {}
     },
@@ -290,7 +557,7 @@
         "kind": 5,
         "importPath": "getData",
         "description": "getData",
-        "peekOfCode": "fgi_df.index = pd.to_datetime(fgi_df.index)\n# Step 3: Merge BTC data with FGI data\nmerged = btc_data.join(fgi_df, how='left')\n# 🔥 Detect Close column\nclose_column = next((col for col in merged.columns if 'Close' in col), None)\nif close_column is None:\n    raise ValueError(\"❌ Couldn't find a Close column!\")\n# Keep only Close, fgi_value, fgi_classification\nmerged = merged[[close_column, 'fgi_value', 'fgi_classification']]\nmerged = merged.rename(columns={close_column: 'Close'})",
+        "peekOfCode": "fgi_df.index = pd.to_datetime(fgi_df.index)\nmerged = btc_df.join(fgi_df, how='left')\ntimestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')\ncsv_filename = \"data.csv\"\nmerged.to_csv(csv_filename)\nprint(f\"✅ Merged BTC + FGI data saved to {csv_filename}\")",
         "detail": "getData",
         "documentation": {}
     },
@@ -299,34 +566,7 @@
         "kind": 5,
         "importPath": "getData",
         "description": "getData",
-        "peekOfCode": "merged = btc_data.join(fgi_df, how='left')\n# 🔥 Detect Close column\nclose_column = next((col for col in merged.columns if 'Close' in col), None)\nif close_column is None:\n    raise ValueError(\"❌ Couldn't find a Close column!\")\n# Keep only Close, fgi_value, fgi_classification\nmerged = merged[[close_column, 'fgi_value', 'fgi_classification']]\nmerged = merged.rename(columns={close_column: 'Close'})\n# Step 4: Save to CSV\ntimestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')",
-        "detail": "getData",
-        "documentation": {}
-    },
-    {
-        "label": "close_column",
-        "kind": 5,
-        "importPath": "getData",
-        "description": "getData",
-        "peekOfCode": "close_column = next((col for col in merged.columns if 'Close' in col), None)\nif close_column is None:\n    raise ValueError(\"❌ Couldn't find a Close column!\")\n# Keep only Close, fgi_value, fgi_classification\nmerged = merged[[close_column, 'fgi_value', 'fgi_classification']]\nmerged = merged.rename(columns={close_column: 'Close'})\n# Step 4: Save to CSV\ntimestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')\ncsv_filename = \"data.csv\"\nmerged.to_csv(csv_filename)",
-        "detail": "getData",
-        "documentation": {}
-    },
-    {
-        "label": "merged",
-        "kind": 5,
-        "importPath": "getData",
-        "description": "getData",
-        "peekOfCode": "merged = merged[[close_column, 'fgi_value', 'fgi_classification']]\nmerged = merged.rename(columns={close_column: 'Close'})\n# Step 4: Save to CSV\ntimestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')\ncsv_filename = \"data.csv\"\nmerged.to_csv(csv_filename)\nprint(f\"✅ Merged BTC + FGI data saved to {csv_filename}\")",
-        "detail": "getData",
-        "documentation": {}
-    },
-    {
-        "label": "merged",
-        "kind": 5,
-        "importPath": "getData",
-        "description": "getData",
-        "peekOfCode": "merged = merged.rename(columns={close_column: 'Close'})\n# Step 4: Save to CSV\ntimestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')\ncsv_filename = \"data.csv\"\nmerged.to_csv(csv_filename)\nprint(f\"✅ Merged BTC + FGI data saved to {csv_filename}\")",
+        "peekOfCode": "merged = btc_df.join(fgi_df, how='left')\ntimestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')\ncsv_filename = \"data.csv\"\nmerged.to_csv(csv_filename)\nprint(f\"✅ Merged BTC + FGI data saved to {csv_filename}\")",
         "detail": "getData",
         "documentation": {}
     },
@@ -349,6 +589,420 @@
         "documentation": {}
     },
     {
+        "label": "df",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "df = pd.read_csv(\"data.csv\")\ndf.columns = df.columns.str.strip()\ndf[\"date\"] = pd.to_datetime(df[\"date\"])\ndf = df.sort_values(\"date\").dropna(subset=[\"Close\", \"fgi_value\"])\ndf[\"Days\"] = (df[\"date\"] - df[\"date\"].min()).dt.days\n# --- Backtest to find best polynomial degree ---\nwindow_size = 85\nfuture_days = 3\nbest_degree = None\nbest_rmse = float('inf')",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "df.columns",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "df.columns = df.columns.str.strip()\ndf[\"date\"] = pd.to_datetime(df[\"date\"])\ndf = df.sort_values(\"date\").dropna(subset=[\"Close\", \"fgi_value\"])\ndf[\"Days\"] = (df[\"date\"] - df[\"date\"].min()).dt.days\n# --- Backtest to find best polynomial degree ---\nwindow_size = 85\nfuture_days = 3\nbest_degree = None\nbest_rmse = float('inf')\nbest_backtest_dates = []",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "df[\"date\"]",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "df[\"date\"] = pd.to_datetime(df[\"date\"])\ndf = df.sort_values(\"date\").dropna(subset=[\"Close\", \"fgi_value\"])\ndf[\"Days\"] = (df[\"date\"] - df[\"date\"].min()).dt.days\n# --- Backtest to find best polynomial degree ---\nwindow_size = 85\nfuture_days = 3\nbest_degree = None\nbest_rmse = float('inf')\nbest_backtest_dates = []\nbest_backtest_real_prices = []",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "df = df.sort_values(\"date\").dropna(subset=[\"Close\", \"fgi_value\"])\ndf[\"Days\"] = (df[\"date\"] - df[\"date\"].min()).dt.days\n# --- Backtest to find best polynomial degree ---\nwindow_size = 85\nfuture_days = 3\nbest_degree = None\nbest_rmse = float('inf')\nbest_backtest_dates = []\nbest_backtest_real_prices = []\nbest_backtest_pred_prices = []",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "df[\"Days\"]",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "df[\"Days\"] = (df[\"date\"] - df[\"date\"].min()).dt.days\n# --- Backtest to find best polynomial degree ---\nwindow_size = 85\nfuture_days = 3\nbest_degree = None\nbest_rmse = float('inf')\nbest_backtest_dates = []\nbest_backtest_real_prices = []\nbest_backtest_pred_prices = []\nfor degree in range(1, 9):",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "window_size",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "window_size = 85\nfuture_days = 3\nbest_degree = None\nbest_rmse = float('inf')\nbest_backtest_dates = []\nbest_backtest_real_prices = []\nbest_backtest_pred_prices = []\nfor degree in range(1, 9):\n    real_prices = []\n    pred_prices = []",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "future_days",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "future_days = 3\nbest_degree = None\nbest_rmse = float('inf')\nbest_backtest_dates = []\nbest_backtest_real_prices = []\nbest_backtest_pred_prices = []\nfor degree in range(1, 9):\n    real_prices = []\n    pred_prices = []\n    dates_real = []",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "best_degree",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "best_degree = None\nbest_rmse = float('inf')\nbest_backtest_dates = []\nbest_backtest_real_prices = []\nbest_backtest_pred_prices = []\nfor degree in range(1, 9):\n    real_prices = []\n    pred_prices = []\n    dates_real = []\n    # Backtest sur toute la période possible (à partir de window_size)",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "best_rmse",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "best_rmse = float('inf')\nbest_backtest_dates = []\nbest_backtest_real_prices = []\nbest_backtest_pred_prices = []\nfor degree in range(1, 9):\n    real_prices = []\n    pred_prices = []\n    dates_real = []\n    # Backtest sur toute la période possible (à partir de window_size)\n    for i in range(window_size, len(df) - future_days):",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "best_backtest_dates",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "best_backtest_dates = []\nbest_backtest_real_prices = []\nbest_backtest_pred_prices = []\nfor degree in range(1, 9):\n    real_prices = []\n    pred_prices = []\n    dates_real = []\n    # Backtest sur toute la période possible (à partir de window_size)\n    for i in range(window_size, len(df) - future_days):\n        df_train = df.iloc[:i]",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "best_backtest_real_prices",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "best_backtest_real_prices = []\nbest_backtest_pred_prices = []\nfor degree in range(1, 9):\n    real_prices = []\n    pred_prices = []\n    dates_real = []\n    # Backtest sur toute la période possible (à partir de window_size)\n    for i in range(window_size, len(df) - future_days):\n        df_train = df.iloc[:i]\n        df_test = df.iloc[i:i + future_days]",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "best_backtest_pred_prices",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "best_backtest_pred_prices = []\nfor degree in range(1, 9):\n    real_prices = []\n    pred_prices = []\n    dates_real = []\n    # Backtest sur toute la période possible (à partir de window_size)\n    for i in range(window_size, len(df) - future_days):\n        df_train = df.iloc[:i]\n        df_test = df.iloc[i:i + future_days]\n        X_train = df_train[[\"Days\", \"fgi_value\"]]",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "forecast_days",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "forecast_days = 15\nforecasted_dates = []\nforecasted_prices = []\ndf_full = df.copy()\nfor _ in range(forecast_days):\n    last_day = df_full[\"Days\"].iloc[-1]\n    next_day = last_day + 1\n    next_date = df_full[\"date\"].iloc[-1] + pd.Timedelta(days=1)\n    next_fgi = df_full[\"fgi_value\"].iloc[-1]\n    model = make_pipeline(PolynomialFeatures(best_degree), LinearRegression())",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "forecasted_dates",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "forecasted_dates = []\nforecasted_prices = []\ndf_full = df.copy()\nfor _ in range(forecast_days):\n    last_day = df_full[\"Days\"].iloc[-1]\n    next_day = last_day + 1\n    next_date = df_full[\"date\"].iloc[-1] + pd.Timedelta(days=1)\n    next_fgi = df_full[\"fgi_value\"].iloc[-1]\n    model = make_pipeline(PolynomialFeatures(best_degree), LinearRegression())\n    model.fit(df_full[[\"Days\", \"fgi_value\"]], df_full[\"Close\"])",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "forecasted_prices",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "forecasted_prices = []\ndf_full = df.copy()\nfor _ in range(forecast_days):\n    last_day = df_full[\"Days\"].iloc[-1]\n    next_day = last_day + 1\n    next_date = df_full[\"date\"].iloc[-1] + pd.Timedelta(days=1)\n    next_fgi = df_full[\"fgi_value\"].iloc[-1]\n    model = make_pipeline(PolynomialFeatures(best_degree), LinearRegression())\n    model.fit(df_full[[\"Days\", \"fgi_value\"]], df_full[\"Close\"])\n    next_X = pd.DataFrame({\"Days\": [next_day], \"fgi_value\": [next_fgi]})",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "df_full",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "df_full = df.copy()\nfor _ in range(forecast_days):\n    last_day = df_full[\"Days\"].iloc[-1]\n    next_day = last_day + 1\n    next_date = df_full[\"date\"].iloc[-1] + pd.Timedelta(days=1)\n    next_fgi = df_full[\"fgi_value\"].iloc[-1]\n    model = make_pipeline(PolynomialFeatures(best_degree), LinearRegression())\n    model.fit(df_full[[\"Days\", \"fgi_value\"]], df_full[\"Close\"])\n    next_X = pd.DataFrame({\"Days\": [next_day], \"fgi_value\": [next_fgi]})\n    price_pred = model.predict(next_X)[0]",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "backtest_df",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "backtest_df = pd.DataFrame({\n    \"date\": best_backtest_dates,\n    \"real_Close\": best_backtest_real_prices,\n    \"pred_Close\": best_backtest_pred_prices\n})\nbacktest_df.to_csv(\"backtest_results.csv\", index=False)\n# --- Save forecast results to CSV ---\nforecast_df = pd.DataFrame({\n    \"date\": forecasted_dates,\n    \"forecasted_Close\": forecasted_prices",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "forecast_df",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "forecast_df = pd.DataFrame({\n    \"date\": forecasted_dates,\n    \"forecasted_Close\": forecasted_prices\n})\nforecast_df.to_csv(\"forecast_results.csv\", index=False)\n# --- Plotting main results ---\nplt.figure(figsize=(14, 6))\nplt.plot(df[\"date\"], df[\"Close\"], label=\"Prix réel BTC\", color=\"black\", alpha=0.7)\nplt.plot(best_backtest_dates, best_backtest_pred_prices, label=\"Prévisions backtest\", color=\"blue\", linestyle=\"--\")\nplt.plot(forecasted_dates, forecasted_prices, label=f\"Prévisions futures ({forecast_days} jours)\", color=\"red\", linestyle=\"--\")",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "rmse_backtest",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "rmse_backtest = np.sqrt(mean_squared_error(best_backtest_real_prices, best_backtest_pred_prices))\nmae_backtest = mean_absolute_error(best_backtest_real_prices, best_backtest_pred_prices)\nprint(f\"\\n📊 Performance backtest :\")\nprint(f\"RMSE = {rmse_backtest:.4f}\")\nprint(f\"MAE  = {mae_backtest:.4f}\")\n# --- Plot backtest real vs predicted ---\nplt.figure(figsize=(14, 6))\nplt.plot(best_backtest_dates, best_backtest_real_prices, label=\"Prix réel (backtest)\", color=\"black\")\nplt.plot(best_backtest_dates, best_backtest_pred_prices, label=\"Prix prédit (backtest)\", color=\"blue\", linestyle=\"--\")\nplt.title(f\"Comparaison backtest : réel vs prédit (degré {best_degree})\")",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "mae_backtest",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "mae_backtest = mean_absolute_error(best_backtest_real_prices, best_backtest_pred_prices)\nprint(f\"\\n📊 Performance backtest :\")\nprint(f\"RMSE = {rmse_backtest:.4f}\")\nprint(f\"MAE  = {mae_backtest:.4f}\")\n# --- Plot backtest real vs predicted ---\nplt.figure(figsize=(14, 6))\nplt.plot(best_backtest_dates, best_backtest_real_prices, label=\"Prix réel (backtest)\", color=\"black\")\nplt.plot(best_backtest_dates, best_backtest_pred_prices, label=\"Prix prédit (backtest)\", color=\"blue\", linestyle=\"--\")\nplt.title(f\"Comparaison backtest : réel vs prédit (degré {best_degree})\")\nplt.xlabel(\"Date\")",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "print(f\"RMSE",
+        "kind": 5,
+        "importPath": "linear-regression-btc",
+        "description": "linear-regression-btc",
+        "peekOfCode": "print(f\"RMSE = {rmse_backtest:.4f}\")\nprint(f\"MAE  = {mae_backtest:.4f}\")\n# --- Plot backtest real vs predicted ---\nplt.figure(figsize=(14, 6))\nplt.plot(best_backtest_dates, best_backtest_real_prices, label=\"Prix réel (backtest)\", color=\"black\")\nplt.plot(best_backtest_dates, best_backtest_pred_prices, label=\"Prix prédit (backtest)\", color=\"blue\", linestyle=\"--\")\nplt.title(f\"Comparaison backtest : réel vs prédit (degré {best_degree})\")\nplt.xlabel(\"Date\")\nplt.ylabel(\"Prix BTC (USD)\")\nplt.legend()",
+        "detail": "linear-regression-btc",
+        "documentation": {}
+    },
+    {
+        "label": "create_sequences",
+        "kind": 2,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "def create_sequences(data, seq_length=60):\n    X, y = [], []\n    for i in range(len(data) - seq_length - 15):  # 15 jours à prévoir plus tard\n        X.append(data[i:i+seq_length])\n        y.append(data[i+seq_length])\n    return np.array(X), np.array(y)\nSEQ_LENGTH = 50  # nombre de jours pour prédire le suivant (lookback)\nX, y = create_sequences(close_scaled, SEQ_LENGTH)\n# Séparer train / test (ex : 80% train)\ntrain_size = int(len(X) * 0.8)",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "df = pd.read_csv(\"daily_close.csv\")  # ton fichier BTC daily Close\ndf['date'] = pd.to_datetime(df['date'])\ndf = df.sort_values('date')\n# Utiliser uniquement la colonne Close pour le modèle (séries univariées)\nclose_prices = df['Close'].values.reshape(-1, 1)\n# --- Normalisation ---\nscaler = MinMaxScaler(feature_range=(0, 1))\nclose_scaled = scaler.fit_transform(close_prices)\n# --- Création des séquences pour LSTM ---\ndef create_sequences(data, seq_length=60):",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "df['date']",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "df['date'] = pd.to_datetime(df['date'])\ndf = df.sort_values('date')\n# Utiliser uniquement la colonne Close pour le modèle (séries univariées)\nclose_prices = df['Close'].values.reshape(-1, 1)\n# --- Normalisation ---\nscaler = MinMaxScaler(feature_range=(0, 1))\nclose_scaled = scaler.fit_transform(close_prices)\n# --- Création des séquences pour LSTM ---\ndef create_sequences(data, seq_length=60):\n    X, y = [], []",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "df = df.sort_values('date')\n# Utiliser uniquement la colonne Close pour le modèle (séries univariées)\nclose_prices = df['Close'].values.reshape(-1, 1)\n# --- Normalisation ---\nscaler = MinMaxScaler(feature_range=(0, 1))\nclose_scaled = scaler.fit_transform(close_prices)\n# --- Création des séquences pour LSTM ---\ndef create_sequences(data, seq_length=60):\n    X, y = [], []\n    for i in range(len(data) - seq_length - 15):  # 15 jours à prévoir plus tard",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "close_prices",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "close_prices = df['Close'].values.reshape(-1, 1)\n# --- Normalisation ---\nscaler = MinMaxScaler(feature_range=(0, 1))\nclose_scaled = scaler.fit_transform(close_prices)\n# --- Création des séquences pour LSTM ---\ndef create_sequences(data, seq_length=60):\n    X, y = [], []\n    for i in range(len(data) - seq_length - 15):  # 15 jours à prévoir plus tard\n        X.append(data[i:i+seq_length])\n        y.append(data[i+seq_length])",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "scaler = MinMaxScaler(feature_range=(0, 1))\nclose_scaled = scaler.fit_transform(close_prices)\n# --- Création des séquences pour LSTM ---\ndef create_sequences(data, seq_length=60):\n    X, y = [], []\n    for i in range(len(data) - seq_length - 15):  # 15 jours à prévoir plus tard\n        X.append(data[i:i+seq_length])\n        y.append(data[i+seq_length])\n    return np.array(X), np.array(y)\nSEQ_LENGTH = 50  # nombre de jours pour prédire le suivant (lookback)",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "close_scaled",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "close_scaled = scaler.fit_transform(close_prices)\n# --- Création des séquences pour LSTM ---\ndef create_sequences(data, seq_length=60):\n    X, y = [], []\n    for i in range(len(data) - seq_length - 15):  # 15 jours à prévoir plus tard\n        X.append(data[i:i+seq_length])\n        y.append(data[i+seq_length])\n    return np.array(X), np.array(y)\nSEQ_LENGTH = 50  # nombre de jours pour prédire le suivant (lookback)\nX, y = create_sequences(close_scaled, SEQ_LENGTH)",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "SEQ_LENGTH",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "SEQ_LENGTH = 50  # nombre de jours pour prédire le suivant (lookback)\nX, y = create_sequences(close_scaled, SEQ_LENGTH)\n# Séparer train / test (ex : 80% train)\ntrain_size = int(len(X) * 0.8)\nX_train, X_test = X[:train_size], X[train_size:]\ny_train, y_test = y[:train_size], y[train_size:]\n# --- Construire le modèle LSTM ---\nmodel = Sequential([\n    LSTM(50, return_sequences=True, input_shape=(SEQ_LENGTH, 1)),\n    LSTM(50),",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "train_size",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "train_size = int(len(X) * 0.8)\nX_train, X_test = X[:train_size], X[train_size:]\ny_train, y_test = y[:train_size], y[train_size:]\n# --- Construire le modèle LSTM ---\nmodel = Sequential([\n    LSTM(50, return_sequences=True, input_shape=(SEQ_LENGTH, 1)),\n    LSTM(50),\n    Dense(1)\n])\nmodel.compile(optimizer='adam', loss='mse')",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "model = Sequential([\n    LSTM(50, return_sequences=True, input_shape=(SEQ_LENGTH, 1)),\n    LSTM(50),\n    Dense(1)\n])\nmodel.compile(optimizer='adam', loss='mse')\n# Early stopping pour éviter overfitting\nes = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)\n# --- Entraînement ---\nhistory = model.fit(",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "es",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "es = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)\n# --- Entraînement ---\nhistory = model.fit(\n    X_train, y_train,\n    validation_data=(X_test, y_test),\n    epochs=100,\n    batch_size=32,\n    callbacks=[es],\n    verbose=1\n)",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "history",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "history = model.fit(\n    X_train, y_train,\n    validation_data=(X_test, y_test),\n    epochs=100,\n    batch_size=32,\n    callbacks=[es],\n    verbose=1\n)\n# --- Prédiction sur test ---\ny_pred_scaled = model.predict(X_test)",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred_scaled",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "y_pred_scaled = model.predict(X_test)\ny_pred = scaler.inverse_transform(y_pred_scaled)\ny_test_true = scaler.inverse_transform(y_test)\n# --- Évaluation ---\nrmse = np.sqrt(mean_squared_error(y_test_true, y_pred))\nmae = mean_absolute_error(y_test_true, y_pred)\nprint(f\"📊 Performance du modèle :\")\nprint(f\"RMSE = {rmse:.4f}\")\nprint(f\"MAE  = {mae:.4f}\")\n# --- Prédiction sur 15 jours futurs ---",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "y_pred = scaler.inverse_transform(y_pred_scaled)\ny_test_true = scaler.inverse_transform(y_test)\n# --- Évaluation ---\nrmse = np.sqrt(mean_squared_error(y_test_true, y_pred))\nmae = mean_absolute_error(y_test_true, y_pred)\nprint(f\"📊 Performance du modèle :\")\nprint(f\"RMSE = {rmse:.4f}\")\nprint(f\"MAE  = {mae:.4f}\")\n# --- Prédiction sur 15 jours futurs ---\n# On part de la dernière séquence connue",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_true",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "y_test_true = scaler.inverse_transform(y_test)\n# --- Évaluation ---\nrmse = np.sqrt(mean_squared_error(y_test_true, y_pred))\nmae = mean_absolute_error(y_test_true, y_pred)\nprint(f\"📊 Performance du modèle :\")\nprint(f\"RMSE = {rmse:.4f}\")\nprint(f\"MAE  = {mae:.4f}\")\n# --- Prédiction sur 15 jours futurs ---\n# On part de la dernière séquence connue\nlast_seq = close_scaled[-SEQ_LENGTH:]  # shape (SEQ_LENGTH, 1)",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "rmse",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "rmse = np.sqrt(mean_squared_error(y_test_true, y_pred))\nmae = mean_absolute_error(y_test_true, y_pred)\nprint(f\"📊 Performance du modèle :\")\nprint(f\"RMSE = {rmse:.4f}\")\nprint(f\"MAE  = {mae:.4f}\")\n# --- Prédiction sur 15 jours futurs ---\n# On part de la dernière séquence connue\nlast_seq = close_scaled[-SEQ_LENGTH:]  # shape (SEQ_LENGTH, 1)\nforecasted = []\ncurrent_seq = last_seq.copy()",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "mae",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "mae = mean_absolute_error(y_test_true, y_pred)\nprint(f\"📊 Performance du modèle :\")\nprint(f\"RMSE = {rmse:.4f}\")\nprint(f\"MAE  = {mae:.4f}\")\n# --- Prédiction sur 15 jours futurs ---\n# On part de la dernière séquence connue\nlast_seq = close_scaled[-SEQ_LENGTH:]  # shape (SEQ_LENGTH, 1)\nforecasted = []\ncurrent_seq = last_seq.copy()\nfor _ in range(15):",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "print(f\"RMSE",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "print(f\"RMSE = {rmse:.4f}\")\nprint(f\"MAE  = {mae:.4f}\")\n# --- Prédiction sur 15 jours futurs ---\n# On part de la dernière séquence connue\nlast_seq = close_scaled[-SEQ_LENGTH:]  # shape (SEQ_LENGTH, 1)\nforecasted = []\ncurrent_seq = last_seq.copy()\nfor _ in range(15):\n    pred = model.predict(current_seq.reshape(1, SEQ_LENGTH, 1))[0, 0]\n    forecasted.append(pred)",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "last_seq",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "last_seq = close_scaled[-SEQ_LENGTH:]  # shape (SEQ_LENGTH, 1)\nforecasted = []\ncurrent_seq = last_seq.copy()\nfor _ in range(15):\n    pred = model.predict(current_seq.reshape(1, SEQ_LENGTH, 1))[0, 0]\n    forecasted.append(pred)\n    current_seq = np.append(current_seq[1:], [[pred]], axis=0)\nforecasted = scaler.inverse_transform(np.array(forecasted).reshape(-1, 1))\n# --- Affichage ---\nplt.figure(figsize=(14, 6))",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "forecasted",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "forecasted = []\ncurrent_seq = last_seq.copy()\nfor _ in range(15):\n    pred = model.predict(current_seq.reshape(1, SEQ_LENGTH, 1))[0, 0]\n    forecasted.append(pred)\n    current_seq = np.append(current_seq[1:], [[pred]], axis=0)\nforecasted = scaler.inverse_transform(np.array(forecasted).reshape(-1, 1))\n# --- Affichage ---\nplt.figure(figsize=(14, 6))\n# Historique Close réel",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "current_seq",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "current_seq = last_seq.copy()\nfor _ in range(15):\n    pred = model.predict(current_seq.reshape(1, SEQ_LENGTH, 1))[0, 0]\n    forecasted.append(pred)\n    current_seq = np.append(current_seq[1:], [[pred]], axis=0)\nforecasted = scaler.inverse_transform(np.array(forecasted).reshape(-1, 1))\n# --- Affichage ---\nplt.figure(figsize=(14, 6))\n# Historique Close réel\nplt.plot(df['date'], close_prices, label='Prix BTC réel')",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "forecasted",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "forecasted = scaler.inverse_transform(np.array(forecasted).reshape(-1, 1))\n# --- Affichage ---\nplt.figure(figsize=(14, 6))\n# Historique Close réel\nplt.plot(df['date'], close_prices, label='Prix BTC réel')\n# Prédiction test (sur dernière partie)\ntest_dates = df['date'].iloc[train_size+SEQ_LENGTH : train_size+SEQ_LENGTH+len(y_test)]\nplt.plot(test_dates, y_pred, label='Prédictions LSTM (test)', linestyle='--')\n# Forecast futur 15 jours\nlast_date = df['date'].iloc[-1]",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "test_dates",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "test_dates = df['date'].iloc[train_size+SEQ_LENGTH : train_size+SEQ_LENGTH+len(y_test)]\nplt.plot(test_dates, y_pred, label='Prédictions LSTM (test)', linestyle='--')\n# Forecast futur 15 jours\nlast_date = df['date'].iloc[-1]\nforecast_dates = [last_date + pd.Timedelta(days=i) for i in range(1, 16)]\nplt.plot(forecast_dates, forecasted, label='Prévisions LSTM 15 jours', linestyle='--')\nplt.title('Prédiction prix BTC avec LSTM')\nplt.xlabel('Date')\nplt.ylabel('Prix Close (USD)')\nplt.legend()",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "last_date",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "last_date = df['date'].iloc[-1]\nforecast_dates = [last_date + pd.Timedelta(days=i) for i in range(1, 16)]\nplt.plot(forecast_dates, forecasted, label='Prévisions LSTM 15 jours', linestyle='--')\nplt.title('Prédiction prix BTC avec LSTM')\nplt.xlabel('Date')\nplt.ylabel('Prix Close (USD)')\nplt.legend()\nplt.grid(True)\nplt.show()",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
+        "label": "forecast_dates",
+        "kind": 5,
+        "importPath": "lstm",
+        "description": "lstm",
+        "peekOfCode": "forecast_dates = [last_date + pd.Timedelta(days=i) for i in range(1, 16)]\nplt.plot(forecast_dates, forecasted, label='Prévisions LSTM 15 jours', linestyle='--')\nplt.title('Prédiction prix BTC avec LSTM')\nplt.xlabel('Date')\nplt.ylabel('Prix Close (USD)')\nplt.legend()\nplt.grid(True)\nplt.show()",
+        "detail": "lstm",
+        "documentation": {}
+    },
+    {
         "label": "run_backtest",
         "kind": 2,
         "importPath": "opti",
@@ -364,6 +1018,105 @@
         "description": "opti",
         "peekOfCode": "def main():\n    print(\"▶️  Chargement des données...\")\n    filename = \"data.csv\"\n    try:\n        df = pd.read_csv(filename, parse_dates=['Date'])\n        df.set_index('Date', inplace=True)\n    except Exception as e:\n        print(f\"Erreur lors du chargement du fichier : {e}\")\n        return\n    investment_per_day = 10  # € investis par jour",
         "detail": "opti",
+        "documentation": {}
+    },
+    {
+        "label": "detect_themes",
+        "kind": 2,
+        "importPath": "processArticles",
+        "description": "processArticles",
+        "peekOfCode": "def detect_themes(text):\n    text = text.lower()\n    return {theme for theme, keywords in THEMES.items() if any(word in text for word in keywords)}\ndef analyze_sentiment(text):\n    result = sentiment_model(text[:512])[0]  # Truncate text to 512 tokens max\n    score = result['score']\n    return score if result['label'] == 'POSITIVE' else -score\ndef clean_text(text):\n    \"\"\"Removes stopwords and irrelevant words from the text.\"\"\"\n    return [word for word in re.sub(r'[^a-zA-Z\\s]', '', text.lower()).split() if word not in STOPWORDS and len(word) > 2]",
+        "detail": "processArticles",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_sentiment",
+        "kind": 2,
+        "importPath": "processArticles",
+        "description": "processArticles",
+        "peekOfCode": "def analyze_sentiment(text):\n    result = sentiment_model(text[:512])[0]  # Truncate text to 512 tokens max\n    score = result['score']\n    return score if result['label'] == 'POSITIVE' else -score\ndef clean_text(text):\n    \"\"\"Removes stopwords and irrelevant words from the text.\"\"\"\n    return [word for word in re.sub(r'[^a-zA-Z\\s]', '', text.lower()).split() if word not in STOPWORDS and len(word) > 2]\ndef process_articles(csv_file):\n    df = pd.read_csv(csv_file)\n    theme_sentiments = defaultdict(list)",
+        "detail": "processArticles",
+        "documentation": {}
+    },
+    {
+        "label": "clean_text",
+        "kind": 2,
+        "importPath": "processArticles",
+        "description": "processArticles",
+        "peekOfCode": "def clean_text(text):\n    \"\"\"Removes stopwords and irrelevant words from the text.\"\"\"\n    return [word for word in re.sub(r'[^a-zA-Z\\s]', '', text.lower()).split() if word not in STOPWORDS and len(word) > 2]\ndef process_articles(csv_file):\n    df = pd.read_csv(csv_file)\n    theme_sentiments = defaultdict(list)\n    theme_labels = defaultdict(list)\n    theme_keywords = defaultdict(list)\n    for _, row in df.iterrows():\n        combined = f\"{row['title']} {row['summary']}\"",
+        "detail": "processArticles",
+        "documentation": {}
+    },
+    {
+        "label": "process_articles",
+        "kind": 2,
+        "importPath": "processArticles",
+        "description": "processArticles",
+        "peekOfCode": "def process_articles(csv_file):\n    df = pd.read_csv(csv_file)\n    theme_sentiments = defaultdict(list)\n    theme_labels = defaultdict(list)\n    theme_keywords = defaultdict(list)\n    for _, row in df.iterrows():\n        combined = f\"{row['title']} {row['summary']}\"\n        themes = detect_themes(combined)\n        sentiment_score = analyze_sentiment(combined)\n        words = clean_text(combined)",
+        "detail": "processArticles",
+        "documentation": {}
+    },
+    {
+        "label": "STOPWORDS",
+        "kind": 5,
+        "importPath": "processArticles",
+        "description": "processArticles",
+        "peekOfCode": "STOPWORDS = set(stopwords.words('english'))\n# Load sentiment analysis pipeline (defaults to distilbert-base-uncased-finetuned-sst-2-english)\nsentiment_model = pipeline(\"sentiment-analysis\")\n# Define broad themes\nTHEMES = {\n    'Regulation': ['regulation', 'law', 'legal', 'bill', 'compliance', 'ban', 'policy', 'legislation'],\n    'Finance': ['finance', 'investment', 'bank', 'economy', 'market', 'money', 'funding'],\n    'Blockchain': ['blockchain', 'decentralized', 'ledger'],\n    'Crypto': ['crypto', 'bitcoin', 'ethereum', 'altcoin', 'stablecoin'],\n    'Security': ['hack', 'breach', 'vulnerability', 'attack', 'scam'],",
+        "detail": "processArticles",
+        "documentation": {}
+    },
+    {
+        "label": "sentiment_model",
+        "kind": 5,
+        "importPath": "processArticles",
+        "description": "processArticles",
+        "peekOfCode": "sentiment_model = pipeline(\"sentiment-analysis\")\n# Define broad themes\nTHEMES = {\n    'Regulation': ['regulation', 'law', 'legal', 'bill', 'compliance', 'ban', 'policy', 'legislation'],\n    'Finance': ['finance', 'investment', 'bank', 'economy', 'market', 'money', 'funding'],\n    'Blockchain': ['blockchain', 'decentralized', 'ledger'],\n    'Crypto': ['crypto', 'bitcoin', 'ethereum', 'altcoin', 'stablecoin'],\n    'Security': ['hack', 'breach', 'vulnerability', 'attack', 'scam'],\n    'Politics': ['democrat', 'republican', 'trump', 'government', 'minister', 'political'],\n}",
+        "detail": "processArticles",
+        "documentation": {}
+    },
+    {
+        "label": "THEMES",
+        "kind": 5,
+        "importPath": "processArticles",
+        "description": "processArticles",
+        "peekOfCode": "THEMES = {\n    'Regulation': ['regulation', 'law', 'legal', 'bill', 'compliance', 'ban', 'policy', 'legislation'],\n    'Finance': ['finance', 'investment', 'bank', 'economy', 'market', 'money', 'funding'],\n    'Blockchain': ['blockchain', 'decentralized', 'ledger'],\n    'Crypto': ['crypto', 'bitcoin', 'ethereum', 'altcoin', 'stablecoin'],\n    'Security': ['hack', 'breach', 'vulnerability', 'attack', 'scam'],\n    'Politics': ['democrat', 'republican', 'trump', 'government', 'minister', 'political'],\n}\ndef detect_themes(text):\n    text = text.lower()",
+        "detail": "processArticles",
+        "documentation": {}
+    },
+    {
+        "label": "simulate",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def simulate():\n    try:\n        daily_investment = float(request.args.get('daily_investment', 10))\n        df = pd.read_csv(\"data.csv\", parse_dates=['date'])\n        btc_accumulated = 0.0\n        total_invested = 0.0\n        for _, row in df.iterrows():\n            close_price = row['Close']\n            if pd.notna(close_price) and close_price > 0:\n                btc_bought = daily_investment / close_price",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "getNews",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def getNews():\n    try:\n        data = getNewsArticles()\n        df = process_articles('blockchain_news.csv')\n        return jsonify(df.to_dict(orient='records'))\n    except Exception as e:\n        return jsonify({'error': str(e)}), 500\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/simulate', methods=['GET'])\ndef simulate():\n    try:\n        daily_investment = float(request.args.get('daily_investment', 10))\n        df = pd.read_csv(\"data.csv\", parse_dates=['date'])\n        btc_accumulated = 0.0\n        total_invested = 0.0\n        for _, row in df.iterrows():\n            close_price = row['Close']",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "csv_file",
+        "kind": 5,
+        "importPath": "simul",
+        "description": "simul",
+        "peekOfCode": "csv_file = \"data.csv\"",
+        "detail": "simul",
         "documentation": {}
     },
     {
@@ -389,7 +1142,7 @@
         "kind": 2,
         "importPath": "start",
         "description": "start",
-        "peekOfCode": "def main():\n    if not os.path.exists(INSTALL_FLAG_FILE):\n        install_requirements()\n    else:\n        print(\"Dépendances déjà installées, passage à l'exécution.\")\n    run_scripts()\nif __name__ == \"__main__\":\n    main()",
+        "peekOfCode": "def main():\n    if not os.path.exists(INSTALL_FLAG_FILE):\n        install_requirements()\n    else:\n        print(\"Dépendances déjà installées, on va pas recommencer quand même !\")\n    run_scripts()\nif __name__ == \"__main__\":\n    main()",
         "detail": "start",
         "documentation": {}
     },
@@ -400,6 +1153,51 @@
         "description": "start",
         "peekOfCode": "INSTALL_FLAG_FILE = \"install_done.txt\"\ndef install_requirements():\n    try:\n        print(\"Installation des dépendances...\")\n        subprocess.check_call([sys.executable, \"-m\", \"pip\", \"install\", \"-r\", \"requirements.txt\"])\n        with open(INSTALL_FLAG_FILE, \"w\") as f:\n            f.write(\"installed\")\n        print(\"Dépendances installées.\")\n    except subprocess.CalledProcessError as e:\n        print(f\"Erreur lors de l'installation : {e}\")",
         "detail": "start",
+        "documentation": {}
+    },
+    {
+        "label": "input_file",
+        "kind": 5,
+        "importPath": "treat",
+        "description": "treat",
+        "peekOfCode": "input_file = \"btcusd_1-min_data\" \\\n\".csv\"   # Ton fichier énorme\noutput_file = \"daily_close.csv\"\nchunksize = 10**6  # 1 million de lignes à la fois\ndaily_close = {}\nfor chunk in pd.read_csv(input_file, chunksize=chunksize):\n    # Convertir timestamp en datetime date\n    chunk['date'] = pd.to_datetime(chunk['Timestamp'], unit='s').dt.date\n    # Pour chaque date dans ce chunk, prendre la dernière valeur Close (en supposant que les lignes sont triées)\n    grouped = chunk.groupby('date')['Close'].last()",
+        "detail": "treat",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "kind": 5,
+        "importPath": "treat",
+        "description": "treat",
+        "peekOfCode": "output_file = \"daily_close.csv\"\nchunksize = 10**6  # 1 million de lignes à la fois\ndaily_close = {}\nfor chunk in pd.read_csv(input_file, chunksize=chunksize):\n    # Convertir timestamp en datetime date\n    chunk['date'] = pd.to_datetime(chunk['Timestamp'], unit='s').dt.date\n    # Pour chaque date dans ce chunk, prendre la dernière valeur Close (en supposant que les lignes sont triées)\n    grouped = chunk.groupby('date')['Close'].last()\n    # Mettre à jour le dictionnaire global (en gardant la dernière Close disponible)\n    for date, close in grouped.items():",
+        "detail": "treat",
+        "documentation": {}
+    },
+    {
+        "label": "chunksize",
+        "kind": 5,
+        "importPath": "treat",
+        "description": "treat",
+        "peekOfCode": "chunksize = 10**6  # 1 million de lignes à la fois\ndaily_close = {}\nfor chunk in pd.read_csv(input_file, chunksize=chunksize):\n    # Convertir timestamp en datetime date\n    chunk['date'] = pd.to_datetime(chunk['Timestamp'], unit='s').dt.date\n    # Pour chaque date dans ce chunk, prendre la dernière valeur Close (en supposant que les lignes sont triées)\n    grouped = chunk.groupby('date')['Close'].last()\n    # Mettre à jour le dictionnaire global (en gardant la dernière Close disponible)\n    for date, close in grouped.items():\n        daily_close[date] = close",
+        "detail": "treat",
+        "documentation": {}
+    },
+    {
+        "label": "daily_close",
+        "kind": 5,
+        "importPath": "treat",
+        "description": "treat",
+        "peekOfCode": "daily_close = {}\nfor chunk in pd.read_csv(input_file, chunksize=chunksize):\n    # Convertir timestamp en datetime date\n    chunk['date'] = pd.to_datetime(chunk['Timestamp'], unit='s').dt.date\n    # Pour chaque date dans ce chunk, prendre la dernière valeur Close (en supposant que les lignes sont triées)\n    grouped = chunk.groupby('date')['Close'].last()\n    # Mettre à jour le dictionnaire global (en gardant la dernière Close disponible)\n    for date, close in grouped.items():\n        daily_close[date] = close\n# Transformer en DataFrame et sauvegarder",
+        "detail": "treat",
+        "documentation": {}
+    },
+    {
+        "label": "df_daily",
+        "kind": 5,
+        "importPath": "treat",
+        "description": "treat",
+        "peekOfCode": "df_daily = pd.DataFrame(list(daily_close.items()), columns=['date', 'Close']).sort_values('date')\ndf_daily.to_csv(output_file, index=False)\nprint(f\"Fichier quotidien créé : {output_file}\")",
+        "detail": "treat",
         "documentation": {}
     }
 ]

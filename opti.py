@@ -60,7 +60,7 @@ def main():
         'profit': None
     }
 
-    print("\n🔍 Démarrage des tests de combinaisons...\n")
+    print("\n🔍 C'est partiiiiiii...\n")
 
     for fgi_threshold in fgi_thresholds:
         for sell_amount in sell_amounts:

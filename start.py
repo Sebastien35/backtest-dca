@@ -31,7 +31,7 @@ def main():
     if not os.path.exists(INSTALL_FLAG_FILE):
         install_requirements()
     else:
-        print("Dépendances déjà installées, passage à l'exécution.")
+        print("Dépendances déjà installées, on va pas recommencer quand même !")
 
     run_scripts()
 
